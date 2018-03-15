@@ -1,0 +1,533 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+    <title>GAP Email</title>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+
+    <style type="text/css">
+        body {
+            width: 100% !important;
+            background-color: #fff;
+            padding: 0;
+            margin: 0;
+						font-family: Tahoma, Helvetica, Arial, sans-serif;
+        }
+
+        #mobile {
+            mso-hide: all;
+        }
+
+        /*
+			Media queries will be ignored by most non-mobile clients.
+			Query parameters will further ensure correct targeting.
+		*/
+
+        /* Tablet (not large size, ie. iPad Pro) */
+
+        @media only screen and ( max-device-width: 768px) {
+            * {
+                text-rendering: optimizelegibility;
+            }
+            body {
+                -webkit-text-size-adjust: 110%;
+            }
+        }
+
+        /* Mobile Styles */
+
+        @media only screen and (max-device-width: 568px) {
+            .desktop {
+                display: none !important;
+            }
+
+						/* RESET */
+						html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, abbr, article, aside, command, details, figcaption, figure, footer, header, hgroup, mark, meter, nav, output, progress, section, summary, time { margin: 0; padding: 0 }
+						h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, strong, th, figcaption { font-size: 1em; font-weight: normal; font-style: normal }
+						fieldset, iframe { border: none }
+						caption, th { text-align: left }
+						table { border-collapse: collapse; border-spacing: 0 }
+						article, aside, footer, header, hgroup, nav, section, figure, figcaption { display: block }
+						body { background-color: #ffffff; min-width: 320px !important }
+
+            /* mobile styles */
+            .mobile {
+                width: 100% !important;
+                max-width: 100% !important;
+                background: #ffffff;
+                max-height: none !important;
+                float: none !important;
+                overflow: visible !important;
+                height: inherit !important;
+                display: block !important;
+                margin: 0 auto !important;
+            }
+
+            .mobile img {
+                display: block;
+                margin: auto;
+            }
+
+						.mobile .logo img {
+              margin: 0 auto;
+							width:97px;
+							display: block;
+						  padding: 20px 0 10px 0;
+						}
+
+            .mobile .nav td {
+              padding-bottom: 10px;
+            }
+
+            .mobile .nav img {
+              display: block;
+            }
+
+            /* Defines fullwidth image as background for different device widths */
+
+            .mobile .red-dress {
+              overflow: hidden;
+              width: 100%;
+              height: 414px;
+              background: url('http://res.cloudinary.com/mchin/image/upload/v1521142154/gap/red_dress_2x.jpg') no-repeat center center;
+              background-size: 410px 414px;
+            }
+
+            .mobile .striped-jacket {
+              overflow: hidden;
+              width: 100%;
+              height: 414px;
+              background: url('http://res.cloudinary.com/mchin/image/upload/v1521142154/gap/jacket_stripes_2x.jpg') no-repeat center center;
+              background-size: 410px 414px;
+            }
+
+            .mobile .navy-hoodie {
+              overflow: hidden;
+              width: 100%;
+              height: 414px;
+              background: url('http://res.cloudinary.com/mchin/image/upload/v1521142154/gap/navy_hoodie_2x.jpg') no-repeat center center;
+              background-size: 410px 414px;
+            }
+
+            .mobile .star-sweater {
+              overflow: hidden;
+              width: 100%;
+              height: 414px;
+              background: url('http://res.cloudinary.com/mchin/image/upload/v1521142155/gap/star_sweater_2x.jpg') no-repeat center center;
+              background-size: 410px 414px;
+            }
+
+            .mobile .plaid {
+              overflow: hidden;
+              width: 100%;
+              height: 414px;
+              background: url('http://res.cloudinary.com/mchin/image/upload/v1521142154/gap/plaid_2x.jpg') no-repeat center center;
+              background-size: 410px 414px;
+            }
+
+            .mobile .red-hoodie {
+              overflow: hidden;
+              width: 100%;
+              height: 414px;
+              background: url('http://res.cloudinary.com/mchin/image/upload/v1521142155/gap/red_hoodie_2x.jpg') no-repeat center center;
+              background-size: 410px 414px;
+            }
+
+            .mobile .winter-sweater {
+              overflow: hidden;
+              width: 100%;
+              height: 414px;
+              background: url('http://res.cloudinary.com/mchin/image/upload/v1521142156/gap/winter_sweater_2x.jpg') no-repeat center center;
+              background-size: 410px 414px;
+            }
+
+            .mobile .gray-beanie {
+              overflow: hidden;
+              width: 100%;
+              height: 414px;
+              background: url('http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/gray_beanie_2x.jpg') no-repeat center center;
+              background-size: 410px 414px;
+            }
+
+            .mobile .gold-jacket {
+              overflow: hidden;
+              width: 100%;
+              height: 414px;
+              background: url('http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/gold_jacket_2x.jpg') no-repeat center center;
+              background-size: 410px 414px;
+            }
+
+            .mobile .nap-red {
+              overflow: hidden;
+              width: 100%;
+              height: 414px;
+              background: url('http://res.cloudinary.com/mchin/image/upload/v1521142154/gap/nap_red_2x.jpg') no-repeat center center;
+              background-size: 410px 414px;
+            }
+
+            .mobile .red-vest {
+              overflow: hidden;
+              width: 100%;
+              height: 414px;
+              background: url('http://res.cloudinary.com/mchin/image/upload/v1521142155/gap/red_vest_2x.jpg') no-repeat center center;
+              background-size: 410px 414px;
+            }
+
+            .mobile .blue-fleece {
+              overflow: hidden;
+              width: 100%;
+              height: 414px;
+              background: url('http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/blue_fleece_2x.jpg') no-repeat center center;
+              background-size: 410px 414px;
+            }
+
+        }
+    </style>
+
+    <!--[if gte mso 9]>
+		<style type="text/css">
+			table, td, div, p { line-height: normal !important; }
+		</style>
+	<![endif]-->
+
+    <!--[if lte mso 7]>
+		<style type="text/css">
+			table, td, div, p { line-height: normal; }
+		</style>
+	<![endif]-->
+
+</head>
+<body style="margin:0; padding:0;">
+    <!-- MOBILE VERSION -->
+    <div class="mobile" style="width:0; height:0; max-height:0; float:left; overflow:hidden; display:none;">
+        <!-- Mobile Content -->
+        <!-- Preheader -->
+        <div style="display:none;font-size:5px;color:#000000;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+            Gap. Take 51% off your purchase with code REALLY. Includes Winter Sales. Exclusions Apply. Shop Now.
+        </div>
+        <!-- Logo -->
+        <div class="logo">
+            <a href="http://gap.com/" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/gap_logo.png" width="100%" alt="GAP" /></a>
+        </div>
+
+        <!-- Navigation -->
+        <table width="380" cellspacing="0" cellpadding="0" border="0" class="nav">
+            <tr>
+                <td height="15"></td>
+            </tr>
+            <tr>
+                <td align="center"><a href="#"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/nav_women.png" alt="Navigation Item: Women" ></a></td>
+            </tr>
+            <tr>
+                <td align="center"><a href="#"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/nav_gapfit.png" alt="Navigation Item: GapFit" ></a></td>
+            </tr>
+            <tr>
+                <td align="center"><a href="#"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/nav_maternity.png" alt="Navigation Item: Maternity" ></a></td>
+            </tr>
+            <tr>
+                <td align="center"><a href="#"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/nav_men.png" alt="Navigation Item: Men" ></a></td>
+            </tr>
+            <tr>
+                <td align="center"><a href="#"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/nav_girls.png" alt="Navigation Item: Girls" ></a></td>
+            </tr>
+            <tr>
+                <td align="center"><a href="#"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142154/gap/nav_boys.png" alt="Navigation Item: Boys" ></a></td>
+            </tr>
+            <tr>
+                <td align="center"><a href="#"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/nav_toddler.png" alt="Navigation Item: Toddler" ></a></td>
+            </tr>
+        </table>
+
+
+        <!--Top Header -->
+
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" class="topheader">
+            <tr>
+                <td height="15"></td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <img src="http://res.cloudinary.com/mchin/image/upload/v1521142156/gap/you_shouldnt_have_header.png" alt="You Shouldnt Have" width="304" />
+                </td>
+            </tr>
+            <tr>
+                <td height="15"></td>
+            </tr>
+            <tr>
+                <td align="center"><span style="font-family: Arial, 'Helvetica', Tahoma; font-size: 1.5em;">(We did.)</span></td>
+            </tr>
+            <tr>
+                <td height="35"></td>
+            </tr>
+        </table>
+
+
+        <!-- Start Main Blocks -->
+
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#fff">
+            <tr>
+                <td>
+                    <div class="red-dress">
+                        <a href="http://www.gap.com/browse/product.do?cid=1102114&pcid=6436&vid=1&pid=157262002" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/fullwidth.png" width="100%" height="400" alt="Toddler Red Dress" /></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="striped-jacket">
+                        <a href="http://www.gap.com/browse/product.do?pcid=5058&vid=1&pid=200455002" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/fullwidth.png" alt="Women Striped Jacket"/></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="navy-hoodie">
+                        <a href="http://www.gap.com/browse/product.do?cid=1063364&pcid=1016107&vid=1&pid=326799012" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/fullwidth.png" alt="Toddler Bear Hoodie"/></a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#fff">
+            <tr>
+                <td>
+                    <div class="star-sweater">
+                        <a href="http://www.gap.com/browse/product.do?cid=1086736&pcid=5180&vid=1&pid=122761012" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/fullwidth.png" alt="Men Sweater"/></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" valign="top" style="font-family: Arial, 'Helvetica', Tahoma">
+                    <img src="http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/51off.png" style="padding-bottom: 15px;" />
+                    <p style="font-size: 20px; text-transform: uppercase; padding-bottom: 30px;">Your Purchase</p>
+                    <hr style="width: 80%; border: solid 1px #000000;" />
+                    <p style="font-size: 20px; line-height: 26px; text-transform: uppercase;">Includes <br/><span style="font-weight: bold;">Winter Sale</span></p>
+                    <hr style="width: 80%; border: solid 1px #000000;" />
+                    <p style="padding-bottom: 40px;">Online only.<br/>Code <span style="font-weight: bold;">REALLY</span></p>
+                    <span style="vertical-align:bottom;">Exclusions apply.</span>
+                </td>
+            </tr>
+            <tr>
+                <td height="15"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="plaid"><a href="http://www.gap.com/browse/product.do?pcid=5058&vid=1&pid=261588002" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/fullwidth.png" alt="Baby in Plaid"/></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="red-hoodie"><a href="http://www.gap.com/browse/product.do?cid=1102155&pcid=1056270&vid=1&pid=925765012" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/fullwidth.png" alt="Girls Red Hoodie"/></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="winter-sweater"><a href="http://www.gap.com/browse/product.do?pcid=5058&vid=1&pid=934590002" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/fullwidth.png" alt="Boys Cardigan"/></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="gray-beanie"><a href="http://www.gap.com/browse/product.do?pcid=5058&vid=1&pid=923565022" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/fullwidth.png" alt="Gray Beanie"/></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="gold-jacket"><a href="http://www.gap.com/browse/product.do?pcid=5058&vid=1&pid=851454002" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/fullwidth.png" alt="Girls Gold Jacket"/></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="nap-red"><a href="http://www.gap.com/browse/product.do?pcid=5058&vid=1&pid=199092012" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/fullwidth.png" alt="Women Nap Shirt"/></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="red-vest"><a href="http://www.gap.com/browse/product.do?pcid=5058&vid=1&pid=928984002" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/fullwidth.png" alt="Boys Red Vest and Plaid"/></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="blue-fleece"><a href="http://www.gap.com/browse/product.do?cid=1089384&pcid=5270&vid=1&pid=353744012" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/fullwidth.png" alt="Men Blue Fleece Robe"/></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td height="25"></td>
+            </tr>
+            <!-- Shop Now CTA -->
+            <tr>
+                <td align="center"><a href="http://gap.com" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142155/gap/shop_now.png" alt="Shop Now"/></a>
+                </td>
+
+            </tr>
+            <tr>
+                <td height="55"></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <!-- DESKTOP VERSION -->
+    <div class="desktop" style="display:table; width:100%; border-spacing:0; border-collapse:collapse; margin:auto 0; background-color:#707764;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;">
+            <tr>
+                <td align="center" bgcolor="#ffffff">
+                    <!-- Desktop Content -->
+                    <table width="640" cellspacing="0" cellpadding="0" border="0" align="center">
+                        <tr>
+                            <td height="20"></td>
+                        </tr>
+                        <tr>
+                            <td align="center"><a href="http://gap.com" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/gap_logo.png" alt="Gap Logo"/></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="30"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <!-- Wrapper -->
+                                <table width="640" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#fff">
+                                    <tr>
+                                        <td align="left">
+                                            <!-- Nav -->
+                                            <table width="580" cellspacing="0" cellpadding="0" border="0">
+                                                <tr>
+                                                    <td width="140"></td>
+                                                    <td align="left" width="125"><a href="#"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/nav_women.png" alt="Navigation Item: Women" ></a></td>
+                                                    <td align="left" width="125"><a href="#"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/nav_gapfit.png" alt="Navigation Item: GapFit" ></a></td>
+                                                    <td align="left" width="145"><a href="#"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/nav_maternity.png" alt="Navigation Item: Maternity" ></a></td>
+                                                    <td align="left" width="125"><a href="#"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/nav_men.png" alt="Navigation Item: Men" ></a></td>
+                                                    <td align="left" width="125"><a href="#"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/nav_girls.png" alt="Navigation Item: Girls" ></a></td>
+                                                    <td align="left" width="125"><a href="#"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142154/gap/nav_boys.png" alt="Navigation Item: Boys" ></a></td>
+                                                    <td align="left" width="125"><a href="#"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/nav_toddler.png" alt="Navigation Item: Toddler" ></a></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#fff">
+                                    <tr>
+                                        <td height="30"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <!-- Top Header -->
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#fff">
+                                    <tr>
+                                        <td align="left">
+                                            <table width="400" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff">
+                                                <tr>
+                                                    <td align="center">
+                                                        <img src="http://res.cloudinary.com/mchin/image/upload/v1521142156/gap/you_shouldnt_have_header.png" alt="You Shouldnt Have" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="15"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center"><span style="font-family: Arial, 'Helvetica', Tahoma; font-size: 35px;">(We did.)</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="15"></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- Start Main Blocks -->
+                        <tr>
+                            <td>
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#fff">
+                                    <tr>
+                                        <td><a href="http://www.gap.com/browse/product.do?cid=1102114&pcid=6436&vid=1&pid=157262002" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/red_dress.jpg" alt="Toddler Red Dress"/></a>
+                                        </td>
+                                        <td><a href="http://www.gap.com/browse/product.do?pcid=5058&vid=1&pid=200455002" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142154/gap/jacket_stripes.jpg" alt="Women Striped Jacket"/></a>
+                                        </td>
+                                        <td><a href="http://www.gap.com/browse/product.do?cid=1063364&pcid=1016107&vid=1&pid=326799012" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142154/gap/navy_hoodie.jpg" alt="Toddler Bear Hoodie"/></a>
+                                        </td>
+
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#fff">
+                                    <tr>
+                                        <td><a href="http://www.gap.com/browse/product.do?cid=1086736&pcid=5180&vid=1&pid=122761012" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142156/gap/star_sweater.jpg" alt="Men Sweater"/></a>
+                                        </td>
+                                        <td align="center" rowspan="3" valign="top" style="font-family: Arial, 'Helvetica', Tahoma">
+                                            <img src="http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/51off.png" alt="51 percent off"/>
+                                            <p style="font-size: 20px; text-transform: uppercase; padding-bottom: 30px;">Your Purchase</p>
+                                            <hr style="width: 80%; border: solid 0.5px #000000;" />
+                                            <p style="font-size: 20px; line-height: 24px; text-transform: uppercase; letter-spacing: 2px;">Includes <br/><span style="font-weight: bold;">Winter Sale</span></p>
+                                            <hr style="width: 80%; border: solid 0.5px #000000;" />
+                                            <p style="font-size: 16px; line-height: 22px; padding-top: 25px; padding-bottom: 40px;">Online only.<br/>Code <span style="font-weight: bold;">REALLY</span></p>
+                                            <span style="font-size: 16px; vertical-align:bottom;">Exclusions apply.</span>
+                                        </td>
+                                        <td><a href="http://www.gap.com/browse/product.do?pcid=5058&vid=1&pid=261588002" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/plaid.jpg" alt="Baby in Plaid"/></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="http://www.gap.com/browse/product.do?cid=1102155&pcid=1056270&vid=1&pid=925765012" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142155/gap/red_hoodie.jpg" alt="Girls Red Hoodie"/></a>
+                                        </td>
+
+                                        <td><a href="http://www.gap.com/browse/product.do?pcid=5058&vid=1&pid=934590002" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142156/gap/winter_sweater.jpg" alt="Boys Cardigan"/></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="http://www.gap.com/browse/product.do?pcid=5058&vid=1&pid=923565022" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/gray_beanie.jpg" alt="Gray Beanie"/></a>
+                                        </td>
+
+                                        <td><a href="http://www.gap.com/browse/product.do?pcid=5058&vid=1&pid=851454002" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142153/gap/gold_jacket.jpg" alt="Girls Gold Jacket"/></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="http://www.gap.com/browse/product.do?pcid=5058&vid=1&pid=199092012" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142154/gap/nap_red.jpg" alt="Women Nap Shirt"/></a>
+                                        </td>
+                                        <td><a href="http://www.gap.com/browse/product.do?pcid=5058&vid=1&pid=928984002" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142155/gap/red_vest.jpg" alt="Boys Red Vest and Plaid"/></a>
+                                        </td>
+                                        <td><a href="http://www.gap.com/browse/product.do?cid=1089384&pcid=5270&vid=1&pid=353744012" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142152/gap/blue_fleece.jpg" alt="Men Blue Fleece Robe"/></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="25"></td>
+                                    </tr>
+                                    <!-- Shop Now CTA -->
+                                    <tr>
+                                        <td></td>
+                                        <td align="center"><a href="http://gap.com" target="_blank"><img src="http://res.cloudinary.com/mchin/image/upload/v1521142155/gap/shop_now.png" alt="Shop Now"/></a>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="55"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </td>
+                  </tr>
+            </table>
+        </div>
+</body>
+
+</html>
